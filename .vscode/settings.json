@@ -15,7 +15,8 @@
     "runner.sh": "docker-file,docker-compose.yml",
     "*.vue": "${capture}.type.ts, ${capture}.spec.ts",
     "*.store.ts": "${capture}.type.ts, ${capture}.spec.ts",
-    "tailwind.config.ts": "postcss.config.cjs"
+    "tailwind.config.ts": "postcss.config.cjs",
+    "docker-compose.yml": "docker-file"
   },
   "material-icon-theme.files.associations": {
     "*.module.ts": "nest-module",
