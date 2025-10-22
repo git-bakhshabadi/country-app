@@ -1,0 +1,50 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "explorer.fileNesting.enabled": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "explorer.fileNesting.patterns": {
+    "main.ts": " main.plugin.ts, main.directive.ts",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock, .prettierrc, .npmrc, index.html, README.md",
+    ".gitignore": ".gitlab-ci.yml",
+    "tsconfig.json": "tsconfig.*.json,tsconfig.tsbuildinfo",
+    "*.component.vue": "${capture}.constant.ts, ${capture}.type.ts, ${capture}.data.ts, ${capture}.compose.ts,  ${capture}.style.scss, ${capture}.style.css, , ${capture}.spec.ts",
+    "*.page.vue": "${capture}.constant.ts, ${capture}.type.ts, ${capture}.data.ts, ${capture}.compose.ts,  ${capture}.style.scss, ${capture}.style.css",
+    "*.layout.vue": "${capture}.constant.ts, ${capture}.type.ts, ${capture}.data.ts, ${capture}.compose.ts,  ${capture}.style.scss, ${capture}.style.css",
+    "*.dialog.vue": "${capture}.constant.ts, ${capture}.type.ts, ${capture}.data.ts, ${capture}.compose.ts,  ${capture}.style.scss, ${capture}.style.css",
+    "vite.config.app.ts": "vite.config.app.plugins.ts,vite.config.lib.ts",
+    "runner.sh": "docker-file,docker-compose.yml",
+    "*.vue": "${capture}.type.ts, ${capture}.spec.ts",
+    "*.store.ts": "${capture}.type.ts, ${capture}.spec.ts",
+    "tailwind.config.ts": "postcss.config.cjs"
+  },
+  "material-icon-theme.files.associations": {
+    "*.module.ts": "nest-module",
+    "*.service.ts": "nest-service",
+    "*.type.ts": "typescript",
+    "*.decorator.ts": "nest-decorator",
+    "*.constant.ts": "nest-middleware",
+    "*.interceptor.ts": "nest-interceptor",
+    "*.style.css": "css",
+    "*.style.scss": "nest-resolver",
+    "*.prototype.ts": "nest-pipe",
+    "*.router.ts": "nest-gateway",
+    "*.compose.ts": "nest"
+  },
+  "material-icon-theme.folders.associations": {
+    "country": "public",
+    "stores": "store"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": false,
+  "terminal.integrated.defaultProfile.linux": "JavaScript Debug Terminal",
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "editor.formatOnPaste": true,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  }
+}
