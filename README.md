@@ -59,4 +59,4 @@ To run tests, run the following command
 
 ## Tech Stack
 
-**Client Tools:** NuxtJs, Pinia, TailwindCSS
+**Tools:** NuxtJs, Pinia, TailwindCSS
