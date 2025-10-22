@@ -9,9 +9,6 @@ const envFile =
 dotenvConfig({ path: resolve(process.cwd(), "envs/" + envFile) });
 
 export default defineNuxtConfig({
-  content: {
-    database: undefined,
-  },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   pinia: {},
